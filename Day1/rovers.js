@@ -58,8 +58,7 @@ class Rover {
 
   receiveCommands(commands) {
     // for..of loops act like foreach in c#. Iterates any iterable object
-    // Array.forEach is similar, but 1) not all iterable objects are actually arrays (I.E. document.querySelectorAll)
-    // and 2) it isn't supported in all browsers 
+    // Array.forEach is similar, but not all iterable objects are actually arrays (I.E. document.querySelectorAll)
     for (let command of commands) {
       this._receiveCommand(command);
     }
