@@ -31,7 +31,7 @@ Document the API for your solution well enough (just include a README file) that
 
 The sample ciphertext is encrypted with the following algorithm:
 
-To encrypt: the key will cycle through, so for a four character key of "abcd", to encrypt the first character of the plaintext you would use "a", then "b" for the second character, and so on. For the fifth character of the plaintext, you would cycle back to "a". For each character, convert the character and it's correspoding key character to their numerical ASCII codes and add the key to the plaintext character codes. The output should be a comma separated list of numbers representing each character.
+To encrypt: the key will cycle through, so for a four character key of "abcd", to encrypt the first character of the plaintext you would use "a", then "b" for the second character, and so on. For the fifth character of the plaintext, you would cycle back to "a". For each character, convert the character and it's correspoding key character to their numerical codes (UTF-16) and add the key to the plaintext character codes. The output should be a comma separated list of numbers representing each character.
 
 To decrypt: Do the opposite and subtract the key.
 
