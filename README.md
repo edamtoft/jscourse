@@ -5,4 +5,5 @@ Resources
 * [Check how well browsers support a feature](http://caniuse.com/)
 
 Videos:
-* L:\Training\Videos\Js Course
+* Day 1: [Youtube](https://youtu.be/z6Jj9Dgh998)
+* Day 2: No video, just worked on the [project](https://github.com/edamtoft/jscourse/tree/master/Day2)
