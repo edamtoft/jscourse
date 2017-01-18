@@ -3,7 +3,7 @@
 ## Challenge
 You must create a short program which can run in a browser and search through a digital maze until you find the exit.
 The maze will be defined as an API where the entry point is [here](http://dealeron-maze.s3-website-us-east-1.amazonaws.com).
-Each "position" identified by a GUID (128 bit randolong random b, and is located at a url matching:
+Each "position" identified by a GUID, and is located at a url matching:
 
 ```
 http://dealeron-maze.s3-website-us-east-1.amazonaws.com/{guid}.txt.
