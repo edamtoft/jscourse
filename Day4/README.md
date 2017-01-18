@@ -3,14 +3,22 @@
 ## Challenge
 You must create a short program which can run in a browser and search through a digital maze until you find the exit.
 The maze will be defined as an API where the entry point is [here](http://dealeron-maze.s3-website-us-east-1.amazonaws.com).
-Each "position" identified by a GUID, and is located at a url matching http://dealeron-maze.s3-website-us-east-1.amazonaws.com/{guid}.txt.
+Each "position" identified by a GUID, and is located at a url matching:
+
+```
+http://dealeron-maze.s3-website-us-east-1.amazonaws.com/{guid}.txt.
+```
 
 Each position will contain one of the following:
 * "The End"
 * "Not it"
 * A list of guids, one on each line, which represent "routes" you that can be explored
 
-Example for positon 121274bc-1fa2-40ca-b26a-b75f3ad8f299: http://dealeron-maze.s3-website-us-east-1.amazonaws.com/121274bc-1fa2-40ca-b26a-b75f3ad8f299
+Example for positon 121274bc-1fa2-40ca-b26a-b75f3ad8f299: 
+
+```
+http://dealeron-maze.s3-website-us-east-1.amazonaws.com/121274bc-1fa2-40ca-b26a-b75f3ad8f299.txt
+```
 
 There is a single exit to the maze, which will say "The end".
 
