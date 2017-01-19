@@ -2,7 +2,7 @@
 
 ## Challenge
 You must create a short program which can run in a browser and search through a digital maze until you find the exit.
-The maze will be defined as an API where the entry point is [here](http://dealeron-maze.s3-website-us-east-1.amazonaws.com).
+The maze will be defined as an API where the entry point is [here](http://dealeron-maze.s3-website-us-east-1.amazonaws.com/index.txt).
 Each "position" is identified by a GUID, and is located at a url matching:
 
 ```
@@ -14,7 +14,7 @@ Each position will contain one of the following:
 * "Not It"
 * A list of guids, one on each line, which represent "routes" you that can be explored
 
-Example for positon 121274bc-1fa2-40ca-b26a-b75f3ad8f299: 
+Example for positon [121274bc-1fa2-40ca-b26a-b75f3ad8f299](http://dealeron-maze.s3-website-us-east-1.amazonaws.com/121274bc-1fa2-40ca-b26a-b75f3ad8f299.txt): 
 
 ```
 http://dealeron-maze.s3-website-us-east-1.amazonaws.com/121274bc-1fa2-40ca-b26a-b75f3ad8f299.txt
