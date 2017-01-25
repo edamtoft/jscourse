@@ -4,6 +4,7 @@ For this challenge, you will take an existing "barebones" project and refactor /
 
 The "barebones" vanilla-js client app is in the client subfolder.
 
+The server will be available today at http://edamtoft.ad.dealeron.com:8080, but the source code is in the server subfolder along with instructions for running it. 
 
 The application is a very basic javascript chat server. It sucks in a lot of ways. Your mission is to make the client application not suck. The actual "requirements" of this project are pretty open ended, but here are some ideas for features:
 * Add colors, gravatars, or some other way of identifying who said what in a conversation
