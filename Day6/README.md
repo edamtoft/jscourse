@@ -1,6 +1,6 @@
 # Challenge: Day 6
 
-For this challenge, you will take an existing "barebones" project and refactor / reimplement it using an assigned javascript framework (each team will use a different one).
+For this challenge, you will take an existing "barebones" project and refactor / reimplement it using an javascript UI framework (each team will use a different one).
 
 The "barebones" vanilla-js client app is in the client subfolder.
 
